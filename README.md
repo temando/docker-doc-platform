@@ -31,7 +31,3 @@ docker run -ti {imagename} sh
 ```
 
 `{imagename}` can be any string.
-
-## License
-
-See [LICENCE.md](LICENCE.md).

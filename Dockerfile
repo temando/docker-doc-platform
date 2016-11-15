@@ -1,3 +1,13 @@
+ARG BUILD_DATE
+ARG VCS_REF
+LABEL com.temando.build-date=$BUILD_DATE \
+      com.temando.name="docker-doc-platform" \
+      com.temando.description="Docker image for publishing Temando documentation." \
+      com.temando.vcs-ref=$VCS_REF \
+      com.temando.vcs-url="https://github.com/temando/docker-doc-platform" \
+      com.temando.vendor="Temando Pty Ltd" \
+      com.temando.vcs-type="Git"
+
 FROM conoria/alpine-pandoc
 
 # Install Basic Tools
