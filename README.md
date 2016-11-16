@@ -1,5 +1,9 @@
 # Documentation Platform Docker File
 
+[![](https://images.microbadger.com/badges/image/temandodx/doc-platform.svg)](https://microbadger.com/images/temandodx/doc-platform "Click for more information.")
+[![](https://images.microbadger.com/badges/version/temandodx/doc-platform.svg)](https://microbadger.com/images/temandodx/doc-platform "Click for more information.")
+[![](https://img.shields.io/docker/pulls/temandodx/doc-platform.svg)](https://hub.docker.com/r/temandodx/doc-platform/ "Click for more information.")
+
 This project contains the Docker file required to build the documentation platform Docker image. The image is based on a [Alpine Linux](https://alpinelinux.org) installation with the following added:
 
 - [Pandoc](http://pandoc.org) (via [conoria/alpine-pandoc](https://hub.docker.com/r/conoria/alpine-pandoc))

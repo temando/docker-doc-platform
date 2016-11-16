@@ -6,9 +6,9 @@ ARG SOURCE_COMMIT
 LABEL com.temando.name="docker-doc-platform" \
       com.temando.description="Docker image for publishing Temando documentation." \
       com.temando.vendor="Temando Pty Ltd" \
-      com.temando.source-type=$SOURCE_TYPE \
-      com.temando.source-url=$SOURCE_URL \
-      com.temando.source-commit=$SOURCE_COMMIT
+      com.temando.vcs-type=$SOURCE_TYPE \
+      com.temando.vcs-url=$SOURCE_URL \
+      com.temando.vcs-ref=$SOURCE_COMMIT
 
 # Install Basic Tools
 RUN apk update --no-cache && apk --no-cache add \
