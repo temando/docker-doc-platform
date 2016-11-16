@@ -1,0 +1,12 @@
+language: generic
+
+services:
+  - docker
+
+install:
+  - docker build -t testimage .
+
+script:
+  - docker run testimage pandoc -v
+  - docker run testimage mkdocs -V
+  - docker run testimage npm -v
