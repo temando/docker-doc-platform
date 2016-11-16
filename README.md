@@ -17,10 +17,13 @@ Install [Docker](https://www.docker.com) to run `docker` commands.
 To build the documentation platform Docker image, run:
 
 ```sh
-docker build -t {imagename} .
+docker build -t {imagename} --build-arg SOURCE_COMMIT=$(git rev-parse --short HEAD) .
 ```
 
-`{imagename}` can be any string.
+**Note:**
+
+- `{imagename}` can be any string.
+- Syntax shown above works in `bash`.
 
 ## Log in to the Docker Image
 
