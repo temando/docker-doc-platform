@@ -8,6 +8,11 @@ This project contains the Docker file required to build the documentation platfo
 - [Pip](https://pypi.python.org/pypi)
 - [AWS CLI](https://aws.amazon.com/cli/).
 
+[![](https://images.microbadger.com/badges/image/temandodx/doc-platform.svg)](https://microbadger.com/images/temandodx/doc-platform "Click for more information.")
+[![](https://images.microbadger.com/badges/version/temandodx/doc-platform.svg)](https://microbadger.com/images/temandodx/doc-platform "Click for more information.")
+[![](https://images.microbadger.com/badges/commit/temandodx/doc-platform.svg)](http://microbadger.com/images/temandodx/doc-platform "Click for more information.")
+[![](https://img.shields.io/docker/pulls/temandodx/doc-platform.svg)](https://hub.docker.com/r/temandodx/doc-platform/ "Click for more information.")
+
 ## Prerequisites
 
 Install [Docker](https://www.docker.com) to run `docker` commands.
