@@ -8,6 +8,7 @@
 This project contains the Docker file required to build the documentation platform Docker image. The image is based on a [Alpine Linux](https://alpinelinux.org) installation with the following added:
 
 - [Pandoc](http://pandoc.org) (via [conoria/alpine-pandoc](https://hub.docker.com/r/conoria/alpine-pandoc))
+- [MkDocs](http://www.mkdocs.org/)
 - [Node](https://nodejs.org/en/)
 - [Python](https://www.python.org)
 - [Pip](https://pypi.python.org/pypi)

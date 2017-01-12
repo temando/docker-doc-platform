@@ -9,7 +9,11 @@ install:
 script:
   - docker run testimage pandoc -v
   - docker run testimage mkdocs -V
+  - docker run testimage node -v
   - docker run testimage npm -v
+  - docker run testimage python --version
+  - docker run testimage pip list --format columns
+  - docker run testimage aws --version
 
 notifications:
   slack:
