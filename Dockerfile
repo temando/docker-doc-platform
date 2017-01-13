@@ -13,7 +13,7 @@ LABEL com.temando.name="docker-doc-platform" \
 # Install Basic Tools
 RUN apk update --no-cache && apk --no-cache add \
       nodejs \
-      py-pip  \
+      py2-pip  \
     && pip --no-cache-dir install \
       awscli \
       mkdocs \
