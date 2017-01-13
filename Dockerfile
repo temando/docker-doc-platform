@@ -14,6 +14,8 @@ LABEL com.temando.name="docker-doc-platform" \
 RUN apk update --no-cache && apk --no-cache add \
       nodejs \
       py2-pip  \
+      git \
+      openssh \
     && pip --no-cache-dir install \
       awscli \
       mkdocs \
