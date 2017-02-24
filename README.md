@@ -12,7 +12,12 @@ This project contains the Docker file required to build the documentation platfo
 - [Node](https://nodejs.org/en/)
 - [Python](https://www.python.org)
 - [Pip](https://pypi.python.org/pypi)
-- [AWS CLI](https://aws.amazon.com/cli/).
+- [AWS CLI](https://aws.amazon.com/cli/)
+- NPM packages:
+    - [Yarn](https://www.npmjs.com/package/yarn)
+    - [`markdownlint-cli`](https://www.npmjs.com/package/markdownlint-cli)
+    - [`write-good`](https://www.npmjs.com/package/write-good)
+    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck).
 
 ## Prerequisites
 
@@ -35,7 +40,7 @@ docker build -t {imagename} --build-arg SOURCE_COMMIT=$(git rev-parse --short HE
 
 To log in to the previously built Docker image, run:
 
-```
+```sh
 docker run -ti {imagename} sh
 ```
 
