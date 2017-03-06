@@ -24,5 +24,9 @@ RUN apk update --no-cache && apk --no-cache add \
       pymdown-extensions \
       python-markdown-math \
 # Set registry, authentication token can be set at runtime.
-    && npm set registry "http://registry.npmjs.org" \
-    && npm install -g markdownlint-cli write-good yarn markdown-spellcheck && npm cache clean
+    && npm install -g \
+      markdownlint-cli \
+      write-good \
+      yarn \
+      markdown-spellcheck \
+    && npm cache clean
