@@ -9,6 +9,7 @@ This project contains the Docker file required to build the documentation platfo
 
 - [Pandoc](http://pandoc.org) (via [conoria/alpine-pandoc](https://hub.docker.com/r/conoria/alpine-pandoc))
 - [MkDocs](http://www.mkdocs.org/)
+    - [MkDocs Material](http://squidfunk.github.io/mkdocs-material/) theme.
 - [Node](https://nodejs.org/en/)
 - [Python](https://www.python.org)
 - [Pip](https://pypi.python.org/pypi)
