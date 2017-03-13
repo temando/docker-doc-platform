@@ -13,6 +13,7 @@ LABEL com.temando.name="docker-doc-platform" \
 # Install Basic Tools
 RUN apk update --no-cache && apk --no-cache add \
       nodejs \
+      nodejs-npm \
       py2-pip  \
       git \
       openssh \
