@@ -18,7 +18,8 @@ This project contains the Docker file required to build the documentation platfo
     - [Yarn](https://www.npmjs.com/package/yarn)
     - [`markdownlint-cli`](https://www.npmjs.com/package/markdownlint-cli)
     - [`write-good`](https://www.npmjs.com/package/write-good)
-    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck).
+    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck)
+    - [ESDoc](https://esdoc.org).
 
 ## Prerequisites
 

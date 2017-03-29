@@ -30,4 +30,5 @@ RUN apk update --no-cache && apk --no-cache add \
       write-good \
       yarn \
       markdown-spellcheck \
+      esdoc \
     && npm cache clean
