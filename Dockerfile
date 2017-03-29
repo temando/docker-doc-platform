@@ -24,10 +24,10 @@ RUN apk update --no-cache && apk --no-cache add \
       pygments \
       pymdown-extensions \
       python-markdown-math \
-# Set registry, authentication token can be set at runtime.
     && npm install -g \
       markdownlint-cli \
       write-good \
       yarn \
       markdown-spellcheck \
+      esdoc@0.4.8 \
     && npm cache clean
