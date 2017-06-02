@@ -15,7 +15,7 @@ This project contains the Docker file required to build the documentation platfo
 - [Pip](https://pypi.python.org/pypi)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - NPM packages:
-    - [Yarn](https://www.npmjs.com/package/yarn)
+    - [Yarn v0.22.0](https://www.npmjs.com/package/yarn) (until [v0.26.0](https://github.com/yarnpkg/yarn/issues/521))
     - [`markdownlint-cli`](https://www.npmjs.com/package/markdownlint-cli)
     - [`write-good`](https://www.npmjs.com/package/write-good)
     - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck)
