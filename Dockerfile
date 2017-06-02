@@ -28,7 +28,7 @@ RUN apk update --no-cache && apk --no-cache add \
     && npm install -g \
       markdownlint-cli \
       write-good \
-      yarn@v0.22.0 \ # Until Yarn 0.26.0 which supports scoped packages again
+      yarn@v0.22.0 \
       markdown-spellcheck \
       esdoc \
     && npm cache clean
