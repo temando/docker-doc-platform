@@ -7,6 +7,7 @@
 
 This project contains the Docker file required to build the documentation platform Docker image. The image is based on a [Alpine Linux](https://alpinelinux.org) installation with the following added:
 
+- [Bash](https://www.gnu.org/software/bash/)
 - [Pandoc](http://pandoc.org) (via [conoria/alpine-pandoc](https://hub.docker.com/r/conoria/alpine-pandoc))
 - [MkDocs](http://www.mkdocs.org/)
     - [MkDocs Material](http://squidfunk.github.io/mkdocs-material/) theme.

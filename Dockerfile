@@ -12,11 +12,12 @@ LABEL com.temando.name="docker-doc-platform" \
 
 # Install Basic Tools
 RUN apk update --no-cache && apk --no-cache add \
+      bash \
+      git \
       nodejs \
       nodejs-npm \
-      py2-pip  \
-      git \
       openssh \
+      py2-pip  \
     && pip --no-cache-dir install \
       awscli \
       mkdocs \
@@ -26,9 +27,9 @@ RUN apk update --no-cache && apk --no-cache add \
       python-markdown-math \
 # Set registry, authentication token can be set at runtime.
     && npm install -g \
+      esdoc \
       markdownlint-cli \
+      markdown-spellcheck \
       write-good \
       yarn@v0.22.0 \
-      markdown-spellcheck \
-      esdoc \
     && npm cache clean
