@@ -8,7 +8,6 @@
 This project contains the Docker file required to build the documentation platform Docker image. The image is based on a [Alpine Linux](https://alpinelinux.org) installation with the following added:
 
 - [Bash](https://www.gnu.org/software/bash/)
-- [Pandoc](http://pandoc.org) (via [conoria/alpine-pandoc](https://hub.docker.com/r/conoria/alpine-pandoc))
 - [MkDocs](http://www.mkdocs.org/)
     - [MkDocs Material](http://squidfunk.github.io/mkdocs-material/) theme.
 - [Node](https://nodejs.org/en/)
@@ -16,11 +15,10 @@ This project contains the Docker file required to build the documentation platfo
 - [Pip](https://pypi.python.org/pypi)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - NPM packages:
-    - [Yarn v0.22.0](https://www.npmjs.com/package/yarn) (until [v0.26.0](https://github.com/yarnpkg/yarn/issues/521))
+    - [Yarn ](https://www.npmjs.com/package/yarn)
     - [`markdownlint-cli`](https://www.npmjs.com/package/markdownlint-cli)
     - [`write-good`](https://www.npmjs.com/package/write-good)
-    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck)
-    - [ESDoc](https://esdoc.org).
+    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck).
 
 ## Prerequisites
 
