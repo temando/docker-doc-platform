@@ -7,7 +7,6 @@ install:
   - docker build -t testimage .
 
 script:
-  - docker run testimage pandoc -v
   - docker run testimage mkdocs -V
   - docker run testimage node -v
   - docker run testimage npm -v
@@ -15,7 +14,6 @@ script:
   - docker run testimage pip list --format columns
   - docker run testimage aws --version
   - docker run testimage yarn --version
-  - docker run testimage esdoc -v
 
 notifications:
   slack:
