@@ -30,5 +30,5 @@ RUN apk update --no-cache && apk --no-cache add \
       markdownlint-cli \
       markdown-spellcheck \
       write-good \
-      yarn@v0.22.0 \
+      yarn \
     && npm cache clean
