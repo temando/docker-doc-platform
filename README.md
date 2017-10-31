@@ -5,17 +5,16 @@
 [![](https://img.shields.io/docker/pulls/temandodx/doc-platform.svg)](https://hub.docker.com/r/temandodx/doc-platform/ "Click for more information.")
 [![](https://travis-ci.org/temando/docker-doc-platform.svg?branch=master)](https://travis-ci.org/temando/docker-doc-platform "Click for more information.")
 
-This project contains the Docker file required to build the documentation platform Docker image. The image is based on a [Alpine Linux](https://alpinelinux.org) installation with the following added:
+This project contains the Docker file required to build the documentation platform Docker image and is based on an [Alpine Linux](https://alpinelinux.org) installation with:
 
 - [Bash](https://www.gnu.org/software/bash/)
-- [MkDocs](http://www.mkdocs.org/)
-    - [MkDocs Material](http://squidfunk.github.io/mkdocs-material/) theme.
+- [MkDocs](http://www.mkdocs.org/) with [MkDocs Material](http://squidfunk.github.io/mkdocs-material/) theme.
 - [Node](https://nodejs.org/en/)
 - [Python](https://www.python.org)
 - [Pip](https://pypi.python.org/pypi)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - NPM packages:
-    - [Yarn ](https://www.npmjs.com/package/yarn)
+    - [Yarn](https://www.npmjs.com/package/yarn)
     - [`markdownlint-cli`](https://www.npmjs.com/package/markdownlint-cli)
     - [`write-good`](https://www.npmjs.com/package/write-good)
     - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck).

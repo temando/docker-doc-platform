@@ -20,7 +20,7 @@ RUN apk update --no-cache && apk --no-cache add \
       py2-pip  \
     && pip --no-cache-dir install \
       awscli \
-      mkdocs \
+      mkdocs==0.16.3 \
       mkdocs-material \
       pygments \
       pymdown-extensions \
