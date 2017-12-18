@@ -20,8 +20,8 @@ RUN apk update --no-cache && apk --no-cache add \
       py2-pip  \
     && pip --no-cache-dir install \
       awscli \
-      mkdocs==0.16.3 \
-      mkdocs-material==1.12.2 \
+      mkdocs \
+      mkdocs-material \
       pygments \
       pymdown-extensions \
       python-markdown-math \
@@ -30,5 +30,4 @@ RUN apk update --no-cache && apk --no-cache add \
       markdownlint-cli \
       markdown-spellcheck \
       write-good \
-      yarn \
-    && npm cache clean
+      yarn
