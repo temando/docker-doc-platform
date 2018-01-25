@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- PhantomJS, to make image suitable for building NPM packages that require it.
+
 ## 2.0.0 - 2017-12-19
 
 ### Added

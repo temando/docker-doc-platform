@@ -30,4 +30,5 @@ RUN apk update --no-cache && apk --no-cache add \
       markdownlint-cli \
       markdown-spellcheck \
       write-good \
+      phantomjs-prebuilt \
       yarn
