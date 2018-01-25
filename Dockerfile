@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.7
 
 ARG SOURCE_TYPE="Git"
 ARG SOURCE_URL="https://github.com/temando/docker-doc-platform"
@@ -18,6 +18,7 @@ RUN apk update --no-cache && apk --no-cache add \
       nodejs-npm \
       openssh \
       py2-pip  \
+      yarn \
     && pip --no-cache-dir install \
       awscli \
       mkdocs \
@@ -25,9 +26,8 @@ RUN apk update --no-cache && apk --no-cache add \
       pygments \
       pymdown-extensions \
       python-markdown-math \
-# Set registry, authentication token can be set at runtime.
-    && npm install -g \
+    && yarn global add \
       markdownlint-cli \
       markdown-spellcheck \
       write-good \
-      yarn
+      phantomjs-prebuilt
