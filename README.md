@@ -13,11 +13,12 @@ This project contains the Docker file required to build the documentation platfo
 - [Python](https://www.python.org)
 - [Pip](https://pypi.python.org/pypi)
 - [AWS CLI](https://aws.amazon.com/cli/)
+- [Yarn](https://www.npmjs.com/package/yarn)
 - NPM packages:
-    - [Yarn](https://www.npmjs.com/package/yarn)
     - [`markdownlint-cli`](https://www.npmjs.com/package/markdownlint-cli)
     - [`write-good`](https://www.npmjs.com/package/write-good)
-    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck).
+    - [`markdown-spellcheck`](https://www.npmjs.com/package/markdown-spellcheck)
+    - [`phantomjs-prebuilt`](https://www.npmjs.com/package/phantomjs-prebuilt).
 
 ## Prerequisites
 
